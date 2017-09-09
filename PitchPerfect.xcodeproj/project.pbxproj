@@ -59,15 +59,23 @@
 			isa = PBXGroup;
 			children = (
 				7479BD661F5BE62700D1B8C4 /* AppDelegate.swift */,
-				7479BD681F5BE62700D1B8C4 /* RecordSoundsViewController.swift */,
-				7420F0541F5E34CA005C89B8 /* PlaySoundsViewController.swift */,
+				749446AF1F63DD67002616D6 /* ViewControllers */,
 				7479BD6A1F5BE62700D1B8C4 /* Main.storyboard */,
-				7479BD6D1F5BE62700D1B8C4 /* Assets.xcassets */,
 				7479BD6F1F5BE62700D1B8C4 /* LaunchScreen.storyboard */,
+				7479BD6D1F5BE62700D1B8C4 /* Assets.xcassets */,
 				7479BD721F5BE62700D1B8C4 /* Info.plist */,
-				749446AD1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		749446AF1F63DD67002616D6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				749446AD1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift */,
+				7420F0541F5E34CA005C89B8 /* PlaySoundsViewController.swift */,
+				7479BD681F5BE62700D1B8C4 /* RecordSoundsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
