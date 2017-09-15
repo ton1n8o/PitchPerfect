@@ -64,6 +64,7 @@
 			children = (
 				7479BD661F5BE62700D1B8C4 /* AppDelegate.swift */,
 				749446AF1F63DD67002616D6 /* ViewControllers */,
+				74CA3C5B1F6C22EC0050DB7A /* Extensions */,
 				7479BD6A1F5BE62700D1B8C4 /* Main.storyboard */,
 				7479BD6F1F5BE62700D1B8C4 /* LaunchScreen.storyboard */,
 				7479BD6D1F5BE62700D1B8C4 /* Assets.xcassets */,
@@ -77,7 +78,6 @@
 			children = (
 				7420F0541F5E34CA005C89B8 /* PlaySoundsViewController.swift */,
 				7479BD681F5BE62700D1B8C4 /* RecordSoundsViewController.swift */,
-				74CA3C5B1F6C22EC0050DB7A /* Extensions */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
