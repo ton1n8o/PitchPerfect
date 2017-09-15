@@ -14,6 +14,8 @@
 		7479BD6E1F5BE62700D1B8C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7479BD6D1F5BE62700D1B8C4 /* Assets.xcassets */; };
 		7479BD711F5BE62700D1B8C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7479BD6F1F5BE62700D1B8C4 /* LaunchScreen.storyboard */; };
 		749446AE1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749446AD1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift */; };
+		74CA3C581F6C21E30050DB7A /* RecordSoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA3C571F6C21E30050DB7A /* RecordSoundsViewController+Audio.swift */; };
+		74CA3C5A1F6C22E60050DB7A /* ViewController+Extensios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CA3C591F6C22E60050DB7A /* ViewController+Extensios.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		7479BD701F5BE62700D1B8C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7479BD721F5BE62700D1B8C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		749446AD1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		74CA3C571F6C21E30050DB7A /* RecordSoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RecordSoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		74CA3C591F6C22E60050DB7A /* ViewController+Extensios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extensios.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +75,21 @@
 		749446AF1F63DD67002616D6 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				749446AD1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift */,
 				7420F0541F5E34CA005C89B8 /* PlaySoundsViewController.swift */,
 				7479BD681F5BE62700D1B8C4 /* RecordSoundsViewController.swift */,
+				74CA3C5B1F6C22EC0050DB7A /* Extensions */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74CA3C5B1F6C22EC0050DB7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				749446AD1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift */,
+				74CA3C571F6C21E30050DB7A /* RecordSoundsViewController+Audio.swift */,
+				74CA3C591F6C22E60050DB7A /* ViewController+Extensios.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,7 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7479BD691F5BE62700D1B8C4 /* RecordSoundsViewController.swift in Sources */,
+				74CA3C581F6C21E30050DB7A /* RecordSoundsViewController+Audio.swift in Sources */,
 				749446AE1F63AB20002616D6 /* PlaySoundsViewController+Audio.swift in Sources */,
+				74CA3C5A1F6C22E60050DB7A /* ViewController+Extensios.swift in Sources */,
 				7420F0551F5E34CA005C89B8 /* PlaySoundsViewController.swift in Sources */,
 				7479BD671F5BE62700D1B8C4 /* AppDelegate.swift in Sources */,
 			);
